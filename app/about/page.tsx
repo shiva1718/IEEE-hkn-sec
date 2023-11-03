@@ -5,17 +5,16 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
-  // other metadata
+  title: "About",
+  description: "About IEEE HKN",
 };
 
 const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About"
+        description="Where innovation meets humanity, IEEE pioneers technology, shaping a better future through excellence, collaboration, and global impact."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

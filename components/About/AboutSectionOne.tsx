@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="About College"
+                paragraph="Sri Sairam Engineering College is the flagship institution of Sairam Group of Institutions. We are one of India's leading educational group with over 25,000 students, 2000 faculty, 20+ institutions and over two decades of academic excellence!With Sprawling campuses spreading over several acres of land across the 4 southen states of India, Sairam Group has vecome a name synonymous with quality education in a wide range of disciplines ranging from KG to Medicine, Polytechnic to Engineering and Skilled Training to Management studies."
                 mb="44px"
               />
 
@@ -33,19 +33,19 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
+                {/*<div className="mx-[-12px] flex flex-wrap">*/}
+                {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
+                {/*    <List text="Premium quality" />*/}
+                {/*    <List text="Tailwind CSS" />*/}
+                {/*    <List text="Use for lifetime" />*/}
+                {/*  </div>*/}
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
+                {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
+                {/*    <List text="Next.js" />*/}
+                {/*    <List text="Rich documentation" />*/}
+                {/*    <List text="Developer friendly" />*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
             </div>
 
@@ -55,13 +55,13 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/group.svg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about/group.svg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
