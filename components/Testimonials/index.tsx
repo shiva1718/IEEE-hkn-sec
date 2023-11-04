@@ -5,8 +5,8 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Dineshkumar S",
+    designation: "President",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
@@ -14,8 +14,8 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Anushree U",
+    designation: "Vice President",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-02.png",
@@ -23,13 +23,31 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Gnana Padmesh C K",
+    designation: "Treasurer",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
+  {
+    id: 4,
+    name: "Tapasya K",
+    designation: "Corresponding Scretary",
+    content:
+      "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 5
+  },
+  {
+    id: 5,
+    name: "Kishore M A",
+    designation: "Recording Secretary",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 10
+  }
 ];
 
 const Testimonials = () => {
@@ -41,7 +59,6 @@ const Testimonials = () => {
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />
-
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
