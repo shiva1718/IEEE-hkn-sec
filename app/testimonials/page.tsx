@@ -1,6 +1,7 @@
 import { Testimonial } from "@/types/testimonial";
-import SectionTitle from "../Common/SectionTitle";
+import SectionTitle from "../../components/Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+
 
 const testimonialData: Testimonial[] = [
   {
@@ -8,7 +9,7 @@ const testimonialData: Testimonial[] = [
     name: "Dineshkumar S",
     designation: "President",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +18,7 @@ const testimonialData: Testimonial[] = [
     name: "Anushree U",
     designation: "Vice President",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -26,7 +27,7 @@ const testimonialData: Testimonial[] = [
     name: "Gnana Padmesh C K",
     designation: "Treasurer",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

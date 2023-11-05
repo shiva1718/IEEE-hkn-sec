@@ -7,13 +7,13 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
+import Testimonials from "@/app/testimonials/page";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SEC IEEE HKN",
-  description: "This is Home for Startup Nextjs Template",
+  description: "Testimonials",
   // other metadata
 };
 
