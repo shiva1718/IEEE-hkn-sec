@@ -15,16 +15,17 @@ const Hero = () => {
                     data-wow-delay=".2s"
                 >
                   <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                    IEEE
+                    IEEE HKN SEC
                   </h1>
                   <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                    IEEE (Institute of Electrical and Electronics Engineers) is a global professional organization in
-                    electrical engineering, electronics, and related disciplines. It offers services like access to
-                    technical publications, conferences, and standards development, and provides awards for outstanding
-                    contributions in technology. IEEE's mission centers on advancing technology for the betterment of
-                    humanity, promoting ethical practices, and addressing global challenges. Its diverse technical
-                    societies and councils play a pivotal role in fostering innovation and collaboration in these
-                    fields.
+                    Nu ETA Chapter
+                  {/*  IEEE (Institute of E   lectrical and Electronics Engineers) is a global professional organization in*/}
+                  {/*  electrical engineering, electronics, and related disciplines. It offers services like access to*/}
+                  {/*  technical publications, conferences, and standards development, and provides awards for outstanding*/}
+                  {/*  contributions in technology. IEEE's mission centers on advancing technology for the betterment of*/}
+                  {/*  humanity, promoting ethical practices, and addressing global challenges. Its diverse technical*/}
+                  {/*  societies and councils play a pivotal role in fostering innovation and collaboration in these*/}
+                  {/*  fields.*/}
                   </p>
                   {/*<div*/}
                   {/*    className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">*/}
