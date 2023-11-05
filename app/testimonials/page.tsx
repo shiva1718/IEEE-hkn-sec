@@ -48,6 +48,60 @@ const testimonialData: Testimonial[] = [
         "TBD",
     image: "/images/testimonials/auth-03.png",
     star: 10
+  },
+  {
+    id: 6,
+    name: "Raghul D",
+    designation: "Volunteer Director",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 10
+  },
+  {
+    id: 7,
+    name: "Solaiganesh S",
+    designation: "Event Director",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-02.png",
+    star: 5,
+  },
+  {
+    id: 8,
+    name: "Jai Akash S",
+    designation: "Public Relations Director",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 9,
+    name: "Suvigshaa S",
+    designation: "Recruitment Director",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 5
+  },
+  {
+    id: 10,
+    name: "Yashwanth J",
+    designation: "Operational Director",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 10
+  },
+  {
+    id: 11,
+    name: "Venkatapathi K",
+    designation: "Webmaster",
+    content:
+        "TBD",
+    image: "/images/testimonials/auth-03.png",
+    star: 10
   }
 ];
 
