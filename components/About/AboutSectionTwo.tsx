@@ -1,4 +1,5 @@
 import Image from "next/image";
+// bg-[url('/images/hero/sri-sairam-engineering-college-poonthandalam-tiruvallur-institutes-h6v43t37y9.jpg')] bg-cover
 
 const AboutSectionTwo = () => {
   return (

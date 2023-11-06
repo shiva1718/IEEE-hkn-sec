@@ -10,7 +10,7 @@ const testimonialData: Testimonial[] = [
     designation: "President",
     content:
       "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+    image: "/images/members/Dineshkumar Sankar.jpg",
     star: 5,
   },
   {
@@ -19,7 +19,7 @@ const testimonialData: Testimonial[] = [
     designation: "Vice President",
     content:
       "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+    image: "/images/members/Anushree.png",
     star: 5,
   },
   {
@@ -28,7 +28,7 @@ const testimonialData: Testimonial[] = [
     designation: "Treasurer",
     content:
       "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/members/Gnana Padmesh.jpg",
     star: 5,
   },
   {
@@ -37,7 +37,7 @@ const testimonialData: Testimonial[] = [
     designation: "Corresponding Scretary",
     content:
       "TBD",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/members/tapasya_k.jpg",
     star: 5
   },
   {
@@ -46,8 +46,8 @@ const testimonialData: Testimonial[] = [
     designation: "Recording Secretary",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
-    star: 10
+    image: "/images/members/Kishore.png",
+    star: 5
   },
   {
     id: 6,
@@ -55,8 +55,8 @@ const testimonialData: Testimonial[] = [
     designation: "Volunteer Director",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
-    star: 10
+    image: "/images/members/Raghul_d.jpg",
+    star: 5
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const testimonialData: Testimonial[] = [
     designation: "Event Director",
     content:
         "TBD",
-    image: "/images/testimonials/auth-02.png",
+    image: "/images/members/Solaiganesh S .jpg",
     star: 5,
   },
   {
@@ -73,7 +73,7 @@ const testimonialData: Testimonial[] = [
     designation: "Public Relations Director",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/members/Jaiakash S_.jpg",
     star: 5,
   },
   {
@@ -82,7 +82,7 @@ const testimonialData: Testimonial[] = [
     designation: "Recruitment Director",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/members/Suvigshaa.jpg",
     star: 5
   },
   {
@@ -91,8 +91,8 @@ const testimonialData: Testimonial[] = [
     designation: "Operational Director",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
-    star: 10
+    image: "/images/members/Yashwanth J.jpg",
+    star: 5
   },
   {
     id: 11,
@@ -100,8 +100,8 @@ const testimonialData: Testimonial[] = [
     designation: "Webmaster",
     content:
         "TBD",
-    image: "/images/testimonials/auth-03.png",
-    star: 10
+    image: "/images/members/Venkatapathi K_.png",
+    star: 5
   }
 ];
 

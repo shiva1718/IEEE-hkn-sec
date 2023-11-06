@@ -1,11 +1,11 @@
 import Link from "next/link";
-
+// dark:bg-gray-dark
 const Hero = () => {
   return (
       <>
         <section
             id="home"
-            className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+            className="relative z-10 overflow-hidden bg-dark pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
         >
           <div className="container">
             <div className="-mx-4 flex flex-wrap">
@@ -19,13 +19,13 @@ const Hero = () => {
                   </h1>
                   <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                     Nu ETA Chapter
-                  {/*  IEEE (Institute of E   lectrical and Electronics Engineers) is a global professional organization in*/}
-                  {/*  electrical engineering, electronics, and related disciplines. It offers services like access to*/}
-                  {/*  technical publications, conferences, and standards development, and provides awards for outstanding*/}
-                  {/*  contributions in technology. IEEE's mission centers on advancing technology for the betterment of*/}
-                  {/*  humanity, promoting ethical practices, and addressing global challenges. Its diverse technical*/}
-                  {/*  societies and councils play a pivotal role in fostering innovation and collaboration in these*/}
-                  {/*  fields.*/}
+                    {/*  IEEE (Institute of E   lectrical and Electronics Engineers) is a global professional organization in*/}
+                    {/*  electrical engineering, electronics, and related disciplines. It offers services like access to*/}
+                    {/*  technical publications, conferences, and standards development, and provides awards for outstanding*/}
+                    {/*  contributions in technology. IEEE's mission centers on advancing technology for the betterment of*/}
+                    {/*  humanity, promoting ethical practices, and addressing global challenges. Its diverse technical*/}
+                    {/*  societies and councils play a pivotal role in fostering innovation and collaboration in these*/}
+                    {/*  fields.*/}
                   </p>
                   {/*<div*/}
                   {/*    className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">*/}
@@ -47,6 +47,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+            {/*<img src={"02.JPG"} alt={"group photo"}></img>*/}
             <svg
                 width="450"
                 height="556"
