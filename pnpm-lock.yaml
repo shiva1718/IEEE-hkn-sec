@@ -35,10 +35,10 @@ devDependencies:
     specifier: ^18.2.33
     version: 18.2.34
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.9.1
+    specifier: ^6.10.0
     version: 6.10.0(@typescript-eslint/parser@6.10.0)(eslint@8.33.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.9.1
+    specifier: ^6.10.0
     version: 6.10.0(eslint@8.33.0)(typescript@5.2.2)
   autoprefixer:
     specifier: ^10.4.16
@@ -298,7 +298,7 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
       eslint: 8.33.0
-      eslint-visitor-keys: 3.3.0
+      eslint-visitor-keys: 3.4.3
     dev: true
 
   /@eslint-community/regexpp@4.10.0:
@@ -756,7 +756,7 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.4
       tsutils: 3.21.0(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
@@ -807,7 +807,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       '@typescript-eslint/types': 5.50.0
-      eslint-visitor-keys: 3.3.0
+      eslint-visitor-keys: 3.4.3
     dev: false
 
   /@typescript-eslint/visitor-keys@6.10.0:
@@ -4730,7 +4730,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.4
       validate-npm-package-license: 3.0.4
     dev: false
 
@@ -4792,7 +4792,7 @@ packages:
       pkg-dir: 5.0.0
       read-pkg-up: 7.0.1
       rxjs: 6.6.7
-      semver: 7.3.8
+      semver: 7.5.4
       split: 1.0.1
       symbol-observable: 3.0.0
       terminal-link: 2.1.1
@@ -6032,14 +6032,6 @@ packages:
     hasBin: true
     dev: false
 
-  /semver@7.3.8:
-    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: false
-
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
@@ -6946,7 +6938,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.8
+      semver: 7.5.4
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: false
