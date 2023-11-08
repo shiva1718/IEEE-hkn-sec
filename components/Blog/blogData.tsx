@@ -5,14 +5,14 @@ const blogData: Event[] = [
     id: 1,
     title: "Field Exploration & Household Survey",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "",
     image: "/images/events/event1.jpg",
     venue: {
       name: "Adopted Village",
-      image: "/images/events/location-icon.jpg",
+      image: "/images/events/blog-details-01.jpg",
       location: "Varadharajapuram, Tamil Nadu",
     },
-    tags: ["creative"],
+    tags: [""],
     publishDate: "2023",
   },
   // {
