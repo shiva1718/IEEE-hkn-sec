@@ -9,27 +9,27 @@ const testimonialData: Testimonial[] = [
     name: "Dineshkumar S",
     designation: "President",
     content:
-      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/members/Dineshkumar Sankar.jpg",
-    star: 5,
+    //
   },
   {
     id: 2,
     name: "Anushree U",
     designation: "Vice President",
     content:
-      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/members/Anushree.png",
-    star: 5,
+    //
   },
   {
     id: 3,
     name: "Gnana Padmesh C K",
     designation: "Treasurer",
     content:
-      "Our testimonials are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
     image: "/images/members/Gnana Padmesh.jpg",
-    star: 5,
+
   },
   {
     id: 4,
@@ -38,7 +38,6 @@ const testimonialData: Testimonial[] = [
     content:
       "TBD",
     image: "/images/members/tapasya_k.jpg",
-    star: 5
   },
   {
     id: 5,
@@ -47,7 +46,6 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Kishore.png",
-    star: 5
   },
   {
     id: 6,
@@ -56,7 +54,6 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Raghul_d.jpg",
-    star: 5
   },
   {
     id: 7,
@@ -65,7 +62,7 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Solaiganesh S .jpg",
-    star: 5,
+
   },
   {
     id: 8,
@@ -74,7 +71,7 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Jaiakash S_.jpg",
-    star: 5,
+
   },
   {
     id: 9,
@@ -83,7 +80,6 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Suvigshaa.jpg",
-    star: 5
   },
   {
     id: 10,
@@ -92,7 +88,6 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Yashwanth J.jpg",
-    star: 5
   },
   {
     id: 11,
@@ -101,7 +96,6 @@ const testimonialData: Testimonial[] = [
     content:
         "TBD",
     image: "/images/members/Venkatapathi K_.png",
-    star: 5
   }
 ];
 

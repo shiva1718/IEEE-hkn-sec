@@ -57,17 +57,17 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/HKN-logo.png"
+                  src="/images/logo/3.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={70}
+                  height={15}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/HKN-logo3.png"
+                  src="/images/logo/3.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={70}
+                  height={15}
                   className="hidden w-full dark:block"
                 />
               </Link>
@@ -172,7 +172,7 @@ const Header = () => {
                 {/*  Sign Up*/}
                 {/*</Link>*/}
                 <div>
-                  <ThemeToggler />
+                  {/*<ThemeToggler />*/}
                 </div>
               </div>
             </div>

@@ -18,6 +18,7 @@ const NuEtaSectionOne = () => {
   );
 
   return (
+      <>
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
@@ -68,10 +69,62 @@ const NuEtaSectionOne = () => {
                 />
               </div>
             </div>
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>
+      <div className="w-full px-4 lg:w">
+
+        <div
+            className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+            data-wow-delay=".15s"
+        >
+          {/*<div className="mx-[-12px] flex flex-wrap">*/}
+          {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
+          {/*    <List text="Premium quality" />*/}
+          {/*    <List text="Tailwind CSS" />*/}
+          {/*    <List text="Use for lifetime" />*/}
+          {/*  </div>*/}
+
+          {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
+          {/*    <List text="Next.js" />*/}
+          {/*    <List text="Rich documentation" />*/}
+          {/*    <List text="Developer friendly" />*/}
+          {/*  </div>*/}
+          {/*</div>*/}
+        </div>
+      </div>
     </section>
+        <div >
+        <SectionTitle
+            title="VISION MISSION"
+            paragraph = ""
+            center
+
+            mb="80px"
+            width={"100vw"}
+        />
+          <div
+              className="wow fadeInUp mx-auto max-w-[800px] text-center"
+              data-wow-delay=".2s"
+          >
+          <ul className="list-disc dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl space-y-6">
+            <li>
+              Foster and support innovation in technology to build solutions to societal problems through student fraternity.
+            </li>
+            <li>Provide innovators with the right resources and a global platform for their success</li>
+            <li>Promote the values of the IEEE HKN society among students and professionals.</li>
+          </ul>
+            </div>
+        </div>
+      </>
   );
 };
 
