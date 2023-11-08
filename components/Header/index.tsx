@@ -72,7 +72,7 @@ const Header = () => {
                 {/*  height={15}*/}
                 {/*  className="hidden w-full dark:block"*/}
                 {/*/>*/}
-                <img className="hidden w-full dark:block" style={{width:100}} src="/images/logo/3.png"/>
+                <img className="hidden w-full dark:block" style={{width:125}} src="/images/logo/3.png"/>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
