@@ -14,20 +14,22 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="/images/logo/3.png"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={70}
-                    height={15}
-                  />
-                  <Image
-                    src="/images/logo/3.png"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={70}
-                    height={15}
-                  />
+                  {/*<Image*/}
+                  {/*  src="/images/logo/3.png"*/}
+                  {/*  alt="logo"*/}
+                  {/*  className="w-full dark:hidden"*/}
+                  {/*  width={70}*/}
+                  {/*  height={15}*/}
+                  {/*/>*/}
+                  {/*<Image*/}
+                  {/*  src="/images/logo/3.png"*/}
+                  {/*  alt="logo"*/}
+                  {/*  className="hidden w-full dark:block"*/}
+                  {/*  width={70}*/}
+                  {/*  height={15}*/}
+                  {/*/>*/}
+                  <img className="hidden w-full dark:block" style={{width:125}} src="/images/logo/3.png"/>
+                  <img className="w-full dark:hidden" style={{width:125}} src="/images/logo/3-dark.png"/>
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   {/* eslint-disable-next-line react/no-unescaped-entities */}
