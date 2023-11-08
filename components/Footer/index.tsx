@@ -65,7 +65,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/sec_hkn/"
                     aria-label="social-link"
                     className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
@@ -80,7 +80,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/sec-hkn-nu-eta"
                     aria-label="social-link"
                     className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                   >
