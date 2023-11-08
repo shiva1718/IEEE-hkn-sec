@@ -56,20 +56,23 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
-                  src="/images/logo/3.png"
-                  alt="logo"
-                  width={70}
-                  height={15}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/3.png"
-                  alt="logo"
-                  width={70}
-                  height={15}
-                  className="hidden w-full dark:block"
-                />
+                {/*<Image*/}
+                {/*  src="/images/logo/3.png"*/}
+                {/*  alt="logo"*/}
+                {/*  width={20}*/}
+                {/*  height={30}*/}
+                {/*  // width={50}*/}
+                {/*  // height={12}*/}
+                {/*  className="w-full dark:hidden"*/}
+                {/*/>*/}
+                {/*<Image*/}
+                {/*  src="/images/logo/3.png"*/}
+                {/*  alt="logo"*/}
+                {/*  width={1500}*/}
+                {/*  height={15}*/}
+                {/*  className="hidden w-full dark:block"*/}
+                {/*/>*/}
+                <img className="hidden w-full dark:block" style={{width:100}} src="/images/logo/3.png"/>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -110,7 +113,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex py-2 text-xl lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
@@ -172,7 +175,7 @@ const Header = () => {
                 {/*  Sign Up*/}
                 {/*</Link>*/}
                 <div>
-                  {/*<ThemeToggler />*/}
+                  <ThemeToggler />
                 </div>
               </div>
             </div>

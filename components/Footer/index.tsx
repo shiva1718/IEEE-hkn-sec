@@ -25,8 +25,8 @@ const Footer = () => {
                     src="/images/logo/3.png"
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={70}
+                    height={15}
                   />
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
