@@ -42,10 +42,10 @@ const Header = () => {
   return (
       <>
         <header
-            className={`header left-0 top-0 z-40 flex w-full items-center ${
+            className={`header font-bold left-0 top-0 z-40 flex w-full items-center ${
                 sticky
                     ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-                    : "absolute bg-transparent"
+                    : ""
             }`}
         >
           <div className="container">
@@ -54,7 +54,7 @@ const Header = () => {
                 <Link
                     href="/"
                     className={`header-logo block w-full ${
-                        sticky ? "py-5 lg:py-2" : "py-8"
+                        sticky ? "py-5 lg:py-2" : "py-2"
                     } `}
                 >
                   <img className="hidden w-full dark:block" style={{width:125}} src="/images/logo/3.png"/>
