@@ -182,6 +182,7 @@ const Header = () => {
                 {/*</Link>*/}
                 <img className="w-full dark:hidden" style={{width:100}} src="/images/logo/2.png"/>
                 &nbsp;&nbsp;
+
                 <img className="w-full dark:hidden" style={{width:125}} src="/images/logo/1.png"/>
                 <p>&nbsp;&nbsp;</p>
                 <div>
