@@ -97,7 +97,7 @@ const NuEtaSectionOne = () => {
     </section>
         <div >
         <SectionTitle
-            title="VISION MISSION"
+            title="VISION & MISSION"
             paragraph = ""
             center
 
@@ -108,7 +108,7 @@ const NuEtaSectionOne = () => {
               className="wow fadeInUp mx-auto max-w-[800px] text-center"
               data-wow-delay=".2s"
           >
-          <ul className="list-disc dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl space-y-6">
+          <ul className="text-black list-disc dark:text-body-color-dark mb-12 text-base !leading-relaxed sm:text-lg md:text-xl space-y-6">
             <li>
               Foster and support innovation in technology to build solutions to societal problems through student fraternity.
             </li>

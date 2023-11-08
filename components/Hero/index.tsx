@@ -5,7 +5,7 @@ const Hero = () => {
       <>
         <section
             id="home"
-            className="bg-[url('/images/hero/landing-page.jpg')] bg-cover dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] h-[calc(96vh-60px)]"
+            className="bg-[url('/images/hero/landing-page.jpg')] bg-cover dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[180px] h-[calc(96vh-60px)]"
         >
           <div className="container">
             <div className="-mx-4 flex flex-wrap">
@@ -15,10 +15,10 @@ const Hero = () => {
                     data-wow-delay=".2s"
                 >
                   <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                    IEEE Eta Kappu Nu <br/> SRI SAIRAM ENGINEERING COLLEGE
+                    IEEE HKN (Eta Kappu Nu) <br/> SRI SAIRAM ENGINEERING COLLEGE
                   </h1>
-                  <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-2xl">
-                    Nu ETA Chapter
+                  <p className="font-bold dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-5xl">
+                    Nu Eta Chapter
                   </p>
 
                   {/*<div*/}

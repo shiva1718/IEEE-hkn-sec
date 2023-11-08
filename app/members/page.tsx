@@ -2,8 +2,27 @@ import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../../components/Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
-
-const testimonialData: Testimonial[] = [
+const professionalMembers: Testimonial[] = [
+  {
+    id: 1,
+    name: "Dr. Sai Prakash Leomuthu",
+    designation: "Chairman & CEO of Sairam Institutions",
+    content:
+        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/members/ceo.jpg",
+    //
+  },
+  {
+    id: 2,
+    name: "Dr. Soma Prathibha",
+    designation: "Faculty Advisor",
+    content:
+        "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    image: "/images/members/soma-mam.webp",
+    //
+  },
+];
+const studentMembers: Testimonial[] = [
   {
     id: 1,
     name: "Dineshkumar S",
@@ -99,17 +118,32 @@ const testimonialData: Testimonial[] = [
   }
 ];
 
+
 const Testimonials = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="SEC IEEE HKN Team"
-          paragraph="SEC IEEE HKN Team Discription"
+          paragraph=""
           center
         />
+        <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-2xl">
+          Professional Members
+        </p>
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
+          {professionalMembers.map((testimonial) => (
+              <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+          ))}
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-dark md:text-2xl">
+          Student Members
+        </p>
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+          {studentMembers.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
         </div>

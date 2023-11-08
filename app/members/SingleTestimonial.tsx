@@ -79,10 +79,6 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
 
                 </div>
 
-
-
-
-
             </div>
           </div>
         </div>
