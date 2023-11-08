@@ -70,13 +70,6 @@ const NuEtaSectionOne = () => {
               </div>
             </div>
 
-
-
-
-
-
-
-
           </div>
         </div>
       </div>

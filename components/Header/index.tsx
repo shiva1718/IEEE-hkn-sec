@@ -180,9 +180,9 @@ const Header = () => {
                 {/*>*/}
                 {/*  Sign Up*/}
                 {/*</Link>*/}
-                <img className="w-full dark:hidden" style={{width:125, paddingRight:30}} src="/images/logo/2.png"/>
+                <img className="w-full dark:hidden" style={{width:125, paddingLeft: 30, paddingRight:30}} src="/images/logo/2.png"/>
                 {/*&nbsp;&nbsp;*/}
-                <img className="w-full dark:hidden" style={{width:140, paddingRight:30}} src="/images/logo/1.png"/>
+                <img className="w-full dark:hidden" style={{width:140, paddingLeft: 30, paddingRight:30}} src="/images/logo/1.png"/>
                 {/*<p>&nbsp;&nbsp;</p>*/}
                 <div>
                   <ThemeToggler />

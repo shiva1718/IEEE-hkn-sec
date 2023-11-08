@@ -1,15 +1,15 @@
-type Author = {
+type Venue = {
   name: string;
   image: string;
-  designation: string;
+  location: string;
 };
 
-export type Blog = {
+export type Event = {
   id: number;
   title: string;
   paragraph: string;
   image: string;
-  author: Author;
+  venue: Venue;
   tags: string[];
   publishDate: string;
 };
