@@ -33,7 +33,7 @@ const Footer = () => {
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   {/* eslint-disable-next-line react/no-unescaped-entities */}
-                  Attitude <>.</> Scholarship <h3>.</h3> Character
+                  Attitude . Scholarship . Character
                 </p>
                 <div className="flex items-center">
                   <a
