@@ -35,7 +35,7 @@ const AboutSectionTwo = () => {
                   Sri Sairam Engineering College, Chennai was established in the year 1995 by MJF. Ln. LeoMuthu,
                   Chairman of Sapthagiri Educational Trust. Our Institution is an Autonomous Institution, affiliated to
                   Anna University and approved by AICTE, New Delhi. Besides, the institution has been accredited by
-                  National Accreditation and Assessment Council (NAAC) with "A+" Grade and our Institution has been
+                  National Accreditation and Assessment Council (NAAC) with &quot;A+&quot; Grade and our Institution has been
                   upgraded to ISO 9001:2015 Certification. Our Institution has secured a place in the 151-200 Rank Band
                   in the National Institutional Ranking Framework 2023 (NIRF), prestigious ranking released by the
                   MHRD, Government of India. All the eligible programs of the institution have been accredited by the
