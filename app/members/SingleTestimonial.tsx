@@ -57,7 +57,6 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
                         </svg>
                     </a>
 
-                    &nbsp;
                     <a
                         href="#"
                         aria-label="social-link"
