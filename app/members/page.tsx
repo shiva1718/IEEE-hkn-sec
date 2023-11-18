@@ -43,7 +43,7 @@ const studentMembers: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Gnana Padmesh C K",
+    name: "Gnana Padmesh M K",
     designation: "Treasurer",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
