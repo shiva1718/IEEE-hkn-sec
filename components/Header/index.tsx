@@ -169,9 +169,9 @@ const Header = () => {
                   <img className="hidden w-full dark:block lg-hidden sample" style={{width:140, paddingRight:30}} src="/images/logo/1.png"/>
 
 
-                  <div>
-                    <ThemeToggler />
-                  </div>
+                  {/*<div>*/}
+                  {/*  <ThemeToggler />*/}
+                  {/*</div>*/}
                 </div>
               </div>
             </div>

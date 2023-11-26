@@ -27,6 +27,7 @@ const AboutSectionOne = () => {
                 title="About College"
                 paragraph="Sri Sairam Engineering College is the flagship institution of Sairam Group of Institutions. We are one of India's leading educational group with over 25,000 students, 2000 faculty, 20+ institutions and over two decades of academic excellence!With Sprawling campuses spreading over several acres of land across the 4 southen states of India, Sairam Group has vecome a name synonymous with quality education in a wide range of disciplines ranging from KG to Medicine, Polytechnic to Engineering and Skilled Training to Management studies."
                 mb="44px"
+                className="text-justify"
               />
 
               <div

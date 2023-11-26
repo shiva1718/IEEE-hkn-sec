@@ -38,7 +38,7 @@ const Video = () => {
                                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                                     {/*Bug free code*/}
                                 </h3>
-                                <p className="text-black font-medium text-justify leading-relaxed sm:text-lg sm:leading-relaxed">
+                                <p className="text-black text-xl font-medium text-justify !leading-relaxed">
                                     The IEEE HKN (Institute of Electrical and Electronics Engineers Eta Kappa Nu)
                                     Society is a prestigious honor society for students and professionals in the fields
                                     of electrical engineering, computer engineering, and related disciplines. The

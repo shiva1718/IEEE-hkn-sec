@@ -34,19 +34,7 @@ const NuEtaSectionOne = () => {
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                {/*<div className="mx-[-12px] flex flex-wrap">*/}
-                {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
-                {/*    <List text="Premium quality" />*/}
-                {/*    <List text="Tailwind CSS" />*/}
-                {/*    <List text="Use for lifetime" />*/}
-                {/*  </div>*/}
 
-                {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
-                {/*    <List text="Next.js" />*/}
-                {/*    <List text="Rich documentation" />*/}
-                {/*    <List text="Developer friendly" />*/}
-                {/*  </div>*/}
-                {/*</div>*/}
               </div>
             </div>
 
@@ -79,31 +67,12 @@ const NuEtaSectionOne = () => {
             className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
             data-wow-delay=".15s"
         >
-          {/*<div className="mx-[-12px] flex flex-wrap">*/}
-          {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
-          {/*    <List text="Premium quality" />*/}
-          {/*    <List text="Tailwind CSS" />*/}
-          {/*    <List text="Use for lifetime" />*/}
-          {/*  </div>*/}
-
-          {/*  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">*/}
-          {/*    <List text="Next.js" />*/}
-          {/*    <List text="Rich documentation" />*/}
-          {/*    <List text="Developer friendly" />*/}
-          {/*  </div>*/}
-          {/*</div>*/}
         </div>
       </div>
     </section>
         <div >
-        <SectionTitle
-            title="VISION & MISSION"
-            paragraph = ""
-            center
 
-            mb="80px"
-            width={"100vw"}
-        />
+          <h2 className={"mb-4 text-3xl font-bold !leading-tight text-black text-center dark:text-white sm:text-4xl md:text-[45px]"}>VISION & MISSION</h2>
           <div
               className="wow fadeInUp mx-auto max-w-[800px] text-center"
               data-wow-delay=".2s"
