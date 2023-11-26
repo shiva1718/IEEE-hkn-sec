@@ -29,7 +29,7 @@ const studentMembers: Testimonial[] = [
     designation: "President",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/members/Dineshkumar Sankar.jpg",
+    image: "/images/members/Dineshkumar_Sankar.jpg",
     //
   },
   {
@@ -47,7 +47,7 @@ const studentMembers: Testimonial[] = [
     designation: "Treasurer",
     content:
       "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/members/Gnana Padmesh.jpg",
+    image: "/images/members/Gnana_Padmesh.jpg",
 
   },
   {
@@ -80,7 +80,7 @@ const studentMembers: Testimonial[] = [
     designation: "Event Director",
     content:
         "TBD",
-    image: "/images/members/Solaiganesh S .jpg",
+    image: "/images/members/Solaiganesh.jpg",
 
   },
   {
@@ -106,7 +106,7 @@ const studentMembers: Testimonial[] = [
     designation: "Operational Director",
     content:
         "TBD",
-    image: "/images/members/Yashwanth J.jpg",
+    image: "/images/members/Yashwanth_J.jpg",
   },
   {
     id: 11,
@@ -114,7 +114,7 @@ const studentMembers: Testimonial[] = [
     designation: "Webmaster",
     content:
         "TBD",
-    image: "/images/members/Venkatapathi K_.png",
+    image: "/images/members/Venkatapathi_K.png",
   }
 ];
 
